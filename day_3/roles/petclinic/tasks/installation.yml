@@ -5,4 +5,4 @@
       - java-17-amazon-corretto.x86_64
       - git
       - maven
-  state: present
+    state: present
