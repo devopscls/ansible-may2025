@@ -3,4 +3,4 @@
   git:
     repo: "{{ repo_url }}"
     dest: "{{ repo_dest }}"
-  update: yes
+    update: yes
