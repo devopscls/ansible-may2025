@@ -1,0 +1,6 @@
+---
+- name: Clone Spring Petclinic repository
+  git:
+    repo: "{{ repo_url }}"
+    dest: "{{ repo_dest }}"
+  update: yes

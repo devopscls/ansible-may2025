@@ -1,0 +1,9 @@
+---
+- name: Run the Spring Petclinic JAR
+  shell: "nohup java -jar {{ item.path }} &"
+  args:
+    chdir: "{{ repo_dest }}"
+  loop: "{{ jar_file.files }}"
+  when: jar_file.files | length > 0
+  async: 60
+  poll: 0

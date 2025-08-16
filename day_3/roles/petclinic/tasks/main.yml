@@ -1,0 +1,5 @@
+---
+- import_tasks: installation.yml
+- import_tasks: clone.yml
+- import_tasks: build.yml
+- import_tasks: nohup.yml

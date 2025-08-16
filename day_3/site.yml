@@ -1,0 +1,6 @@
+---
+- name: Deploy Petclinic through ansible roles format
+  hosts: ansible_test
+  become: yes
+  roles:
+    - petclinic
